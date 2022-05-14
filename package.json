@@ -1,0 +1,32 @@
+{
+  "name": "komolio3",
+  "version": "1.1.0",
+  "private": true,
+  "author": "Koma",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@react-three/cannon": "^4.6.1",
+    "@react-three/drei": "^8.8.1",
+    "@react-three/fiber": "^7.0.26",
+    "gsap": "^3.9.1",
+    "lil-gui": "^0.16.1",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-time-ago": "^7.1.9",
+    "repository-metrics": "^3.7.6",
+    "three": "^0.137.5",
+    "valtio": "^1.2.11"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.16",
+    "@types/react": "17.0.39",
+    "@types/three": "^0.137.0",
+    "typescript": "4.5.5"
+  }
+}
