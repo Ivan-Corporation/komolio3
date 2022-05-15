@@ -3,7 +3,6 @@ import React, { VFC } from 'react';
 import { css } from '@emotion/react';
 import { colorStyles } from '../../modules/colorManager';
 import { WorkDataDetail } from '../../modules/types';
-import { RepositoryMetrics } from 'repository-metrics';
 
 type CardProps = {
 	order: number
