@@ -10,7 +10,7 @@ import { Profile } from '../components/home/Profile';
 import { Layout } from '../components/Layout';
 import { appState } from '../modules/store';
 
-const TCanvas = dynamic(() => import('../components/three/raymarching_collision/TCanvas'), { ssr: false })
+const TCanvas = dynamic(() => import('../components/three/TCanvas'), { ssr: false })
 
 const Home: VFC = () => {
 	const appSnap = useSnapshot(appState)

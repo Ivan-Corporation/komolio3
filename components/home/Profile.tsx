@@ -78,6 +78,13 @@ const styles = {
 		&.active {
 			transform: translate(0, 0%);
 		}
+		@media (max-width: 700px) {
+			background-color: rgba(0, 0, 0, 0.95);
+			border-radius: 0px 20px 0px 0px;
+			left: 0px;
+			bottom: 0px;
+			width: 280px;
+		  }
 	`,
 
 	title: css`

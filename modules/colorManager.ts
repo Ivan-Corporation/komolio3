@@ -48,7 +48,7 @@ export const colorStyles = {
 		}
 	`,
 	mainText: css`
-		color: orange;
+		color: darkorange;
 		&.dark {
 			color: #fff;
 		}

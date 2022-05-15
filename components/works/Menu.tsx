@@ -34,7 +34,10 @@ const Item: VFC<ItemProps> = ({ year }) => {
 		}
 	}, [workSnap.year])
 
+
+
 	const handleClick = () => {
+
 		workState.year = year
 
 	}

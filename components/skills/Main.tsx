@@ -10,6 +10,7 @@ export const Main: VFC = () => {
 		<div css={styles.container}>
 			<SkillGroup header="Programming Language" datas={skillDatas.language} />
 			<SkillGroup header="Framework" datas={skillDatas.framework} />
+			<SkillGroup header="Library" datas={skillDatas.library} />
 			<SkillGroup header="Cloud Service" datas={skillDatas.cloudService} />
 			<SkillGroup header="Development Tool" datas={skillDatas.developmentTool} />
 		</div>

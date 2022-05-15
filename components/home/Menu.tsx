@@ -57,7 +57,13 @@ const styles = {
 		padding: 0;
 		list-style-type: none;
 		font-size: 3rem;
-		${colorStyles.subText}
+		${colorStyles.subText};
+		@media (max-width: 700px) {
+			background-color: rgba(0, 0, 0, 0.8);
+			border-radius: 30px;
+			padding:10px
+		
+		  }
 	`,
 	item: css`
 		position: relative;

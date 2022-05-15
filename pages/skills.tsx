@@ -9,7 +9,7 @@ const Skills: VFC = () => {
 	return (
 		<Layout title="KomaHuman｜Skills" description="List of all and active skills">
 			<div css={styles.container}>
-				<SideNavigationLayout title="Skills">
+				<SideNavigationLayout title="Skills 🏆">
 					<Menu />
 				</SideNavigationLayout>
 				<Main />

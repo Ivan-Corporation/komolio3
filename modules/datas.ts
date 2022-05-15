@@ -17,7 +17,7 @@ export const workDatas: WorkDatas = {
 			app: 'https://komotedly.netlify.app/'
 		},
 		{
-			title: '3D-Planet-destroyer',
+			title: 'Planet-destroyer',
 			image: '/assets/images/2022/planet.png',
 			app: 'https://planet-destroyer.netlify.app/'
 		},
@@ -32,7 +32,7 @@ export const workDatas: WorkDatas = {
 			app: 'https://komoquote.netlify.app/'
 		},
 		{
-			title: 'React-compress',
+			title: 'React-Compress',
 			image: '/assets/images/2022/react-compress.png',
 			app: 'https://github.com/Ivan-Corporation/react-compress'
 		},
@@ -42,7 +42,7 @@ export const workDatas: WorkDatas = {
 			app: 'https://komanding.netlify.app/'
 		},
 		{
-			title: 'komolio2',
+			title: 'Komolio New',
 			image: '/assets/images/2022/komolio2.png',
 			app: 'https://komolio.netlify.app/'
 		},
@@ -59,12 +59,12 @@ export const workDatas: WorkDatas = {
 			app: 'https://komaroad.netlify.app/'
 		},
 		{
-			title: 'Koma-crypto',
+			title: 'Koma-Crypto',
 			image: '/assets/images/2021/koma-crypto.png',
 			app: 'https://koma-crypto.netlify.app/'
 		},
 		{
-			title: 'ReactPython_BookApp',
+			title: 'React-Python',
 			image: '/assets/images/2021/react-python.png',
 			app: 'https://github.com/Ivan-Corporation/ReactPython_BookApp'
 		},
@@ -74,7 +74,7 @@ export const workDatas: WorkDatas = {
 			app: 'https://github.com/Ivan-Corporation/React-Komaroad'
 		},
 		{
-			title: 'React-Next.js_API-auth',
+			title: 'NextJS Auth',
 			image: '/assets/images/2021/React-Next.js_API-auth.png',
 			app: 'https://react-next-js-api-auth.vercel.app/'
 		},
@@ -91,12 +91,12 @@ export const workDatas: WorkDatas = {
 	],
 	2020: [
 		{
-			title: 'KomaQuiz-AndroidGame',
+			title: 'KomaQuiz',
 			image: '/assets/images/2020/komaquiz.png',
 			app: 'https://play.google.com/store/apps/details?id=komar.corporation.Quiz&hl=ru'
 		},
 		{
-			title: 'Battleship-game',
+			title: 'Battleship-Game',
 			image: '/assets/images/2020/Battleship.png',
 			app: 'https://0cv80.csb.app/'
 		},
@@ -114,17 +114,26 @@ export const skillDatas: SkillDatas = {
 	language: [
 		{ name: 'HTML5', iconName: 'html', experience: '4 years', isActive: true },
 		{ name: 'CSS3', iconName: 'css', experience: '4 years', isActive: true },
+		{ name: 'SCSS', iconName: 'scss', experience: '2 years', isActive: true },
 		{ name: 'JavaScript', iconName: 'javascript', experience: '3 years', isActive: true },
 		{ name: 'TypeScript', iconName: 'typescript', experience: '1 year', isActive: true },
 		{ name: 'Python', iconName: 'python', experience: '6 months', isActive: false },
-		{ name: 'Java', iconName: 'java', experience: '6 months', isActive: false }
+		{ name: 'Java', iconName: 'java', experience: '4 months', isActive: false }
 	],
 	framework: [
 		{ name: 'React', iconName: 'react', experience: '2 years', isActive: true },
+		{ name: 'Vue', iconName: 'vue', experience: '3 months', isActive: false },
+		{ name: 'Angular', iconName: 'angular', experience: '1 month', isActive: false },
 		{ name: 'Next.js', iconName: 'nextjs', experience: '1 year', isActive: true },
 		{ name: 'Three.js', iconName: 'three', experience: '6 months', isActive: true },
 		{ name: 'Node.js', iconName: 'nodejs', experience: '2 years', isActive: true },
 		{ name: 'Express', iconName: 'express', experience: '6 months', isActive: true }
+	],
+	library: [
+		{ name: 'Framer Motion', iconName: 'framer', experience: '3 months', isActive: true },
+		{ name: 'Styled', iconName: 'styled_components', experience: '1 year', isActive: true },
+		{ name: 'Chakra', iconName: 'chakra', experience: '3 months', isActive: false },
+		{ name: 'MUI', iconName: 'mui', experience: '1 year', isActive: true }
 	],
 	cloudService: [
 		{ name: 'Firebase', iconName: 'firebase', experience: '1 year', isActive: false },
@@ -133,7 +142,11 @@ export const skillDatas: SkillDatas = {
 	developmentTool: [
 		{ name: 'VSCode', iconName: 'vscode', experience: '3 years', isActive: true },
 		{ name: 'GitHub', iconName: 'github', experience: '3 years', isActive: true },
+		{ name: 'Expo', iconName: 'expo', experience: '1 month', isActive: false },
 		{ name: 'Figma', iconName: 'figma', experience: '6 months', isActive: true },
-		{ name: 'Blender', iconName: 'blender', experience: '6 months', isActive: false }
+		{ name: 'Blender', iconName: 'blender', experience: '6 months', isActive: false },
+		{ name: 'Gimp', iconName: 'gimp', experience: '4 years', isActive: true },
+		{ name: 'Wordpress', iconName: 'wordpress', experience: '2 years', isActive: false },
+		{ name: 'Android Studio', iconName: 'android', experience: '4 months', isActive: false }
 	]
 }

@@ -4,8 +4,10 @@
 
 <ul>
 <li><strike>Loading - BeaEater</strike>
-<li>3d model
-<li>light mode fix
-<li>repository metrics
+<li><strike>3d model</strike>
+<li><strike>light mode fix for two pages</strike>
+<li><strike>react toastify</strike>
+<li>responsive design fix
+<li>scrollbar
 
 </ul>

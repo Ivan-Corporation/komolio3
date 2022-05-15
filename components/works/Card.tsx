@@ -12,6 +12,7 @@ type CardProps = {
 
 export const Card: VFC<CardProps> = ({ order, data }) => {
 	const handleClick = () => {
+
 		window.open(data.app, '_blank', 'noopener noreferrer')
 	}
 
@@ -22,15 +23,9 @@ export const Card: VFC<CardProps> = ({ order, data }) => {
 				<div css={styles.title}>
 					<span css={styles.order}>{order.toString().padStart(2, '0') + '. '}</span>
 					{data.title}
-				</div>
-				<div css={styles.repositoryMertics}>
-					<RepositoryMetrics
-						owner='Ivan-Corporation'
-						repo={data.title}
-						theme='dark'
-					/>
 
 				</div>
+
 			</div>
 		</div>
 	)

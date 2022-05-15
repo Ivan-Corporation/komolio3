@@ -16,14 +16,15 @@ export const Loading: VFC = () => {
 				appState.endLoading = true
 			}
 		})
+		// That give time to load 3d model (yep look strange but it's work)
 		timeline.to('.K', { strokeDashoffset: 0, duration: 1, delay: 0.5, ease: 'power1.out' })
 		timeline.to('.o', { strokeDashoffset: 0, duration: 1, ease: 'power1.out' }, '< 0.5')
 		timeline.to('.m', { strokeDashoffset: 0, duration: 1, ease: 'power1.out' }, '< 0.5')
-		timeline.to('.a', { strokeDashoffset: 0, duration: 1, ease: 'power1.out' }, '< 0.5')
+		// timeline.to('.a', { strokeDashoffset: 0, duration: 1, ease: 'power1.out' }, '< 0.5')
 
 
-		timeline.to('.logo', { fill: '#fff', duration: 0.3, ease: 'none' })
-		timeline.to('.container', { opacity: 0, duration: 0.3, delay: 0.3, ease: 'none' })
+		timeline.to('.logo', { fill: '#fff', duration: 0.6, ease: 'none' })
+		timeline.to('.container', { opacity: 0, duration: 0.6, delay: 0.3, ease: 'none' })
 	}, [])
 
 	return (

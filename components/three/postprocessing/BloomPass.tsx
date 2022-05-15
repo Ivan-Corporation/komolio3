@@ -2,33 +2,28 @@ import React, { useRef, VFC } from 'react';
 import * as THREE from 'three';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass';
 import { extend, useFrame } from '@react-three/fiber';
-import { GUIController } from '../../../../modules/gui';
+import { GUIController } from '../../../modules/gui';
 
 extend({ UnrealBloomPass })
 
 const datas = {
 	enabled: true,
 	exposure: 0.8,
-	strength: 1,
-	radius: 0.8,
-	threshold: 0.1
+	strength: 0.5,
+	radius: 1.45,
+	threshold: 0.15
 }
 
-type BloomPassProps = {
-	enabledController?: boolean
-}
-
-export const BloomPass: VFC<BloomPassProps> = ({ enabledController }) => {
+export const BloomPass: VFC = () => {
 	const passRef = useRef<UnrealBloomPass>(null)
 
-	if (enabledController) {
-		const gui = GUIController.instance.setFolder('Bloom').open(false)
-		gui.addCheckBox(datas, 'enabled')
-		gui.addNumericSlider(datas, 'exposure', 0.1, 2, 0.01)
-		gui.addNumericSlider(datas, 'strength', 0, 10, 0.1)
-		gui.addNumericSlider(datas, 'radius', 0, 2, 0.01)
-		gui.addNumericSlider(datas, 'threshold', 0, 1, 0.01)
-	}
+	// overwrite default
+	// const gui = GUIController.instance.setFolder('Bloom').open(false)
+	// gui.addCheckBox(datas, 'enabled')
+	// gui.addNumericSlider(datas, 'exposure', 0.1, 2, 0.01)
+	// gui.addNumericSlider(datas, 'strength', 0, 10, 0.1)
+	// gui.addNumericSlider(datas, 'radius', 0, 2, 0.01)
+	// gui.addNumericSlider(datas, 'threshold', 0, 1, 0.01)
 
 	const update = (gl: THREE.WebGLRenderer) => {
 		passRef.current!.enabled = datas.enabled

@@ -26,6 +26,7 @@ export type SkillData = {
 export type SkillDatas = {
 	language: SkillData[]
 	framework: SkillData[]
+	library: SkillData[]
 	cloudService: SkillData[]
 	developmentTool: SkillData[]
 }
