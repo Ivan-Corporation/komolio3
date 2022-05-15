@@ -1,7 +1,5 @@
 import { proxy } from 'valtio';
-import { ApplicationState, DisplayMode, EffectList, SkillCategories, Years } from './types';
-
-export const effectState = proxy<{ currentName: EffectList }>({ currentName: 'None' })
+import { ApplicationState, SkillCategories, Years } from './types';
 
 export const workState = proxy<{ year: Years }>({ year: '2022' })
 
