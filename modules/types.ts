@@ -1,6 +1,6 @@
-import { effects, skillCategories, years } from './datas';
+import { skillCategories, years } from './datas';
 
-export type EffectList = typeof effects[number]
+
 
 export type Years = typeof years[number]
 
