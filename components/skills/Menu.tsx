@@ -74,7 +74,7 @@ const styles = {
 		transition: width 0.5s;
 		${colorStyles.subText}
 		${colorStyles.textBefore}
-
+		
 		&::before {
 			content: '';
 			position: absolute;

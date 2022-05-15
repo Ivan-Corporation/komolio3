@@ -35,6 +35,10 @@ const styles = {
 		height: 100%;
 		padding: 20px 30px;
 		padding-right: 0;
+		@media (max-width: 890px) {
+			position: absolute;
+			margin-top: 330px
+		  }
 	`,
 	cardContainer: css`
 		position: relative;
@@ -46,5 +50,8 @@ const styles = {
 		grid-auto-rows: 300px;
 		grid-template-columns: repeat(auto-fill, minmax(min(400px, 100vw), 1fr));
 		overflow: auto;
+		@media (max-width: 890px) {
+			grid-template-columns: repeat(auto-fill, minmax(min(300px, 100vw), 1fr));
+		  }
 	`
 }

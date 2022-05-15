@@ -52,6 +52,10 @@ const styles = {
 		padding: 20px 30px;
 		padding-right: 0;
 		overflow: auto;
+		@media (max-width: 890px) {
+			position: fixed;
+			margin-top: 260px
+		  }
 	`,
 	header: css`
 		margin-bottom: 10px;

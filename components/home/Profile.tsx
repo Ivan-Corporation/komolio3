@@ -96,7 +96,9 @@ const styles = {
 		font-size: 3rem;
 		transition: all 0.5s;
 		${colorStyles.subText}
-
+		@media (max-width: 700px) {
+			font-size:20px
+		  }
 		&:hover {
 			${colorStyles.mainText}
 			cursor: pointer;

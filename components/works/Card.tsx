@@ -40,12 +40,6 @@ const styles = {
 		width: 100%;
 		height: 100%;
 	`,
-	repositoryMertics: css`
-	position: absolute;
-
-	top: 6px;
-	right: 15px;
-	`,
 	titleContainer: css`
 		position: absolute;
 		bottom: 0px;

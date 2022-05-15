@@ -50,6 +50,7 @@ const styles = {
 		display: grid;
 		align-items: center;
 		grid-template-columns: 1fr auto;
+		
 	`,
 	contentsContainer: css`
 		position: relative;
@@ -86,7 +87,11 @@ const styles = {
 		${colorStyles.mainText}
 		${colorStyles.textBefore}
 		${colorStyles.textAfter}
-
+		@media (max-width: 890px) {
+			position: absolute;
+			margin-top: 100px;
+			right:0px
+		  }
 		&::before,
 		&::after {
 			content: '';
@@ -114,5 +119,8 @@ const styles = {
 		width: 2px;
 		height: 100%;
 		${colorStyles.divider}
+		@media (max-width: 890px) {
+			display:none
+			  }
 	`
 }
